@@ -17,8 +17,4 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
-@bot.command()
-    async def uso(ctx):
-        await ctx.send('なんだろう嘘つくのやめてもらっていいですか')
-        
 bot.run(token)
